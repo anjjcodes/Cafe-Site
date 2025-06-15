@@ -1,0 +1,50 @@
+.Explore_Menu{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 20px;
+}
+.Explore_Menu h1{
+    font-size: 60px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0;
+    border-color: rgb(247, 224, 249);
+    background-color:rgb(247, 224, 249);
+}
+.textmenu{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(190, 73, 205);
+    font-family: "Italianno";
+    letter-spacing: 3px;
+}
+.explorelist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0;
+    overflow-x: scroll;
+}
+.Menulistitems img{
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Menulistitems p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 0px 10px rgb(143, 79, 202);
+    margin-top: 10px;
+}
+.explorelist::-webkit-scrollbar{
+    display: none;
+}
+.explorelist .active{
+    border: 2px solid rgb(137, 66, 138);
+    padding: 2px;
+
+}

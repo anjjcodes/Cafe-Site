@@ -1,0 +1,66 @@
+
+
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+.logo{
+    width: 200px;
+    display: block;
+    
+   
+}
+
+.nav{
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 130px;
+    
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 19px;
+    cursor: pointer;
+    
+}
+.nav-right{
+    align-items: center;
+    gap: 40px;
+    display: flex;
+}
+.nav button{
+    background-color: rgb(224, 206, 229);
+    color: rgb(59, 5, 59);
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.nav button:hover{
+    background-color: rgb(245, 245, 245);
+    color: rgb(146, 4, 178);
+}
+.nav .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(75, 0, 96);
+}
+.nav-searchicon{
+    position: relative;
+}
+.nav-searchicon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px ;
+    background-color: rgb(208, 0, 255);
+    border-radius: 100%;
+    top: -8px;
+    right: -7px;
+}

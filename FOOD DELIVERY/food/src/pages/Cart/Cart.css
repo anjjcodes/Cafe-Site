@@ -1,0 +1,100 @@
+.cart{
+    margin-top:100px;
+
+}
+.cart-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.cart-item{
+    margin: 10px 0;
+    color: black;
+     display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+}
+.cart-item img{
+    width: 100px;
+    height: 150px;
+}
+.cart hr{
+    color: black;
+    height: 1px;
+    background-color: grey;
+    border: none;
+}
+.cart-item .cross{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cart-bottom{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw,20px);
+
+}
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.cart-totdetails{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+}
+.cart-total hr{
+    margin: 10px 0px;
+}
+.cart-total button{
+    color: black;
+    background-color: rgb(197, 164, 227);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    width: max(15vw,200px);
+    font-weight: 600;
+}
+.cart-promo{
+    flex: 1;
+
+}
+.cart-promo p{
+    color: rgb(132, 58, 132);
+    font-size: 20px;
+
+}
+.promo-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lavender;
+    border-radius: 4px;
+
+}
+.promo-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.promo-input button{
+    width: max(10vw,150px);
+    padding: 12px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 17px;
+}
